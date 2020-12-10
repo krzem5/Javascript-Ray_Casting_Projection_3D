@@ -5,7 +5,6 @@ desc=Javascript-Ray_Casting_Projection_3D
 public=true
 homepage=
 license=mit
-remote=
 
 file.readme=.\README.md
 file.gitignore=.\.gitignore
