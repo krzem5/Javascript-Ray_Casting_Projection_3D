@@ -68,7 +68,7 @@ function keydown(e){
 }
 function create_lines(){
 	fetch("./data/board.txt").then((r)=>r.text()).then(function(b){
-		let b=b.split("\n")
+		b=b.split("\n")
 		let w=b[0].split(" ")[0]
 		let h=b[0].split(" ")[1]
 		let CW=50
